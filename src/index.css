@@ -1,0 +1,64 @@
+:root {
+  font-family: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  color: #26373d;
+  background: #fffaf0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --paper: #fffaf0;
+  --paper-deep: #f5efdf;
+  --card: #fffdf8;
+  --ink: #26373d;
+  --muted: #727d7b;
+  --line: #e4dfd1;
+  --blue: #28728b;
+  --yellow: #f5cf3b;
+  --yellow-soft: #fff4c4;
+  --orange: #be6038;
+  --display: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  --body: 'Trebuchet MS', 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 3px solid rgba(40, 114, 139, 0.45);
+  outline-offset: 3px;
+}
+
+::selection {
+  background: #f5cf3b;
+  color: #26373d;
+}
